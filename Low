@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main ()
+{
+   int a;
+   printf("enter a number");
+   scanf("%d",&a);
+   if(a%7==0 | | a%10==7) 
+   {
+   printf("buzz number");
+   }
+   else
+  {
+   printf("not correct");
+ }
+ return 0;
+ }
